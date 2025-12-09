@@ -1,0 +1,14 @@
+img {
+    max-width: 100%;
+}
+.navbar-nav .nav-link.active {
+    color: blue;
+}
+
+.card-img-top {
+    width:40%;
+}
+
+.card {
+    width:auto;
+}
