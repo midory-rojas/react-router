@@ -1,9 +1,16 @@
+body {
+    font-family: sans-serif;
+}
 img {
     max-width: 100%;
 }
 .navbar-nav .nav-link.active {
-    color: blue;
+    color: rgb(60, 60, 169);
 }
+.navbar-nav {
+    color:white;
+}
+
 
 .card-img-top {
     width:40%;
@@ -12,3 +19,23 @@ img {
 .card {
     width:auto;
 }
+body {
+    background-image: 
+    url('./assets/img/img-harrypotter.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;   
+}
+
+.navbar-logo {
+    max-height: 60px;
+    width:auto;
+    margin-right: 15px;
+}
+
+
+
+
+
+

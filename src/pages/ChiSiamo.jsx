@@ -1,7 +1,7 @@
 export default function ChiSiamo() {
     return (
         <>
-        <h1>Sono Home</h1>
+        <h1>Chi siamo ......</h1>
         </>
     );
 }
