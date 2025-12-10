@@ -8,7 +8,7 @@ export default function ProdottoSection ({ prodotto }) {
                 <div className="col-12 col-md-7">
                     <h2>{prodotto.title}</h2>
                     <p>{prodotto.description}</p>
-                    <h3>{prodotto.price}€</h3>
+                    <h3>{prodotto.price}</h3>
                 </div>
             </div>
         </div>
