@@ -1,15 +1,13 @@
 export default function Card({ prodotto }) {
     const { image, category, description, title, price } = prodotto;
     return (
-        <div className="col">
-            <div className="card d-flex justify-content-center">
-                <img src={image} className="card-img-top" />
-                <div className="card-body">
-                    <h5 className="card-title">{title}</h5>
-                    <p>{price}</p>
-                    <p>{description}</p>
-                </div>
+        <div className="card h-100">
+            <img src={image} className="card-img" alt={title} height={250}/>
+            <div className="card-body">
+                <h5>{title}</h5>
             </div>
+            <a href="">Vedi dettagli</a>
         </div>
+
     )
 }

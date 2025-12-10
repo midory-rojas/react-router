@@ -1,9 +1,7 @@
 body {
     font-family: sans-serif;
 }
-img {
-    max-width: 100%;
-}
+
 .navbar-nav .nav-link.active {
     color: rgb(60, 60, 169);
 }
@@ -11,14 +9,6 @@ img {
     color:white;
 }
 
-
-.card-img-top {
-    width:40%;
-}
-
-.card {
-    width:auto;
-}
 body {
     background-image: 
     url('./assets/img/img-harrypotter.jpg');
