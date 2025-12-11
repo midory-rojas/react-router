@@ -18,9 +18,11 @@ function App() {
           <Route element={<DefaultLayout />}>
             <Route path="/" element={<Homepage />} />
             <Route path="/chi-siamo" element={<ChiSiamo />} />
-            <Route path="/prodotti" element={<Prodotti />} />
-            <Route path="/prodotti/:id" element={<SingoloProdotto />} />
-            <Route path="*" element={<NotFound/>}/>
+            <Route path="/prodotti">
+              <Route path="" element={<Prodotti />} />
+              <Route path=":id" element={<SingoloProdotto />} />
+            </Route>
+            <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
       </BrowserRouter>

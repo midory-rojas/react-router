@@ -16,12 +16,12 @@ export default function SingoloProdotto() {
     useEffect(() => {
         axios.get(`https://fakestoreapi.com/products/${id}`).then((resp) => {
             //console.log(resp);
-            setProdotto(resp.data);
-        })
-
-            .catch((err) => {
+            if (resp.data) {
+                setProdotto(resp.data)
+            } else {
                 navigate("/prodotti");
-            });
+            }
+        });
     }, [id]);
 
     return (

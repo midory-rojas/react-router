@@ -16,12 +16,11 @@ export default function Prodotti() {
 
     return (
         <div>
-            <h1>Prodotti</h1>
-            <div className="container">
+            <div className="container text-center py-5">
+                <h1>Prodotti</h1>
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
                     {prodotti.map((prodotto) => (
                         <div className="col" key={prodotto.id}>
-                            <Link to={`/prodotti/{prodotti.id}`}></Link>
                             <Card prodotto={prodotto} />
                         </div>
                     ))}
